@@ -1,4 +1,4 @@
-# Roman Kostyrin
+## Roman Kostyrin
 
 ## tel +7 (962) 409-10-55
 
@@ -26,3 +26,23 @@
 - BEM
 - React, Redux
 
+## Education
+
+### North-Caucasus State Technical University (former Stavropol State Technical University) Engineer's degree
+
+### Now I have finished 3 courses:
+
+- HTML/CCS on htmlacademy.ru
+- JS 2021 on Udemy by Vladilen Minin.
+- React on Udemy by Vladilen Minin.
+
+## Job experience
+
+### Frontend Engineer on GoldApp
+
+## Examples of my work
+
+- https://goldapp.ru/ru#portfolio-livedouble-blockchain-gambling-eth-smartcontract
+- https://goldapp.ru/ru#portfolio-csgo-cases
+
+## English level: B1
