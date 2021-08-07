@@ -9,13 +9,10 @@
   overflow: hidden;
 }
 .container {
+  display: flex;
   margin: 0 auto;
   max-width: 1024px;
   width: calc(100% - 40px);
-}
-.img {
-  display: flex;
-  flex-direction: column;
 }
 .img--photo {
   border-radius: 50%;
@@ -88,7 +85,8 @@
   font-weight: 100;
   color: white;
 }
-.contacts--text__link:hover {
+.contacts--text__link:hover,
+.about--link:hover {
   color: rgb(33, 189, 66);
 }
 .contacts--list,
@@ -96,6 +94,11 @@
   list-style: none;
   padding: 0px;
 }
+.skills--list li,
+.contacts--list li {
+  margin-bottom: 40px;
+}
+
 .skills--scale {
   margin-top: 5px;
   margin-left: 37px;
@@ -143,4 +146,46 @@
     rgb(255, 255, 255) 70%,
     rgb(14, 2, 70) 70%
   );
+}
+.section--right {
+  padding: 10px 0px;
+}
+.about--text {
+  padding-left: 25px;
+  color: rgb(14, 2, 70);
+  max-width: 510px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.about--header {
+  color: rgb(14, 2, 70);
+  padding: 10px 10px 10px 20px;
+  margin-left: 20px;
+  border-top: 1px solid rgb(14, 2, 70);
+  border-bottom: 1px solid rgb(14, 2, 70);
+}
+.about--link {
+  cursor: pointer;
+  color: rgb(14, 2, 70);
+  text-decoration: none;
+}
+.work--item,
+.work--header,
+.work--place {
+  margin-left: 25px;
+}
+.work--date {
+  min-width: 65px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.work--header {
+  margin-top: 15px;
+}
+.work {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.work--list {
+  max-width: 450px;
 }
