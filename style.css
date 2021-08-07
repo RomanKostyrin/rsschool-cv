@@ -189,3 +189,14 @@
 .work--list {
   max-width: 450px;
 }
+footer {
+  text-align: center;
+}
+.rs--link {
+  display: inline-block;
+
+  width: 50px;
+  height: 30px;
+  background: url('./rs_school_js.svg');
+  background-repeat: no-repeat;
+}
