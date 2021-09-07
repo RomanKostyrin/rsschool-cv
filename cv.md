@@ -2,11 +2,11 @@
 
 ## tel +7 (962) 409-10-55
 
-## skype enemy-usa
+## skype: enemy-usa
 
-## Git https://github.com/RomanKostyrin
+## GitHub: https://github.com/RomanKostyrin
 
-## LinkedIn https://www.linkedin.com/in/rkostyrin/
+## LinkedIn: https://www.linkedin.com/in/rkostyrin/
 
 ### From 2015 until 2018 I had some personal management experience.
 
@@ -35,7 +35,19 @@
 - HTML/CCS on htmlacademy.ru
 - JS 2021 on Udemy by Vladilen Minin.
 - React on Udemy by Vladilen Minin.
+## Code:
+```
+function cache(f) {
+  var cache = {};
 
+  return function(x) {
+    if (!(x in cache)) {
+      cache[x] = f.call(this, x);
+    }
+    return cache[x];
+  };
+}
+```
 ## Job experience
 
 ### Frontend Engineer on GoldApp
