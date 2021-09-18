@@ -247,6 +247,7 @@ footer {
   border: 1px solid rgb(33, 189, 66);
 }
 .projects--header {
+  font-size: 16px;
   margin: 4px 0px;
 }
 .projects--item:hover .projects--header {
@@ -365,7 +366,14 @@ footer {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-@media (max-width: 985px) {
+.iframe {
+  width: 48vw;
+  height: 27vw;
+  max-width: 560px;
+  max-height: 315px;
+  margin-left: 40px;
+}
+@media (max-width: 955px) {
   .container {
     margin: 0px 0px 0px 0px;
     width: 100%;
@@ -377,7 +385,11 @@ footer {
     padding-left: 10px;
   }
 }
-
+@media (max-width: 785px) {
+  .iframe {
+    margin-left: 20px;
+  }
+}
 @media (max-width: 685px) {
   .projects--item {
     margin: 10px 0px 10px 5px;
@@ -397,8 +409,17 @@ footer {
     display: inline;
   }
 }
-
+@media (max-width: 615px) {
+  .iframe {
+    margin-left: 5px;
+  }
+}
 @media (max-width: 585px) {
+  .iframe {
+    width: 88vw;
+    height: 49vw;
+    margin-left: 15px;
+  }
   .burger-check ~ .navigation {
     max-height: 0px;
   }

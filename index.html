@@ -22,10 +22,12 @@
     </script>
   </head>
   <body>
-    <main>
+    <header class="visually-hidden">
       <h1 class="visually-hidden">Kostyrin Roman</h1>
+    </header>
+    <main>
       <div class="container">
-        <section class="section section--left">
+        <aside class="section section--left">
           <h2 class="visually-hidden">section--left</h2>
           <input class="burger-check" id="burger-check" type="checkbox" /><label
             for="burger-check"
@@ -128,7 +130,7 @@
               target="_blank"
               class="projects--item"
             >
-              <p class="projects--header">Skins2Day</p>
+              <h3 class="projects--header">Skins2Day</h3>
               <img
                 class="projects--image"
                 src="./skins2day.jpeg"
@@ -150,7 +152,7 @@
               target="_blank"
               class="projects--item"
             >
-              <p class="projects--header">LiveDouble</p>
+              <h3 class="projects--header">LiveDouble</h3>
               <img
                 class="projects--image"
                 src="./roulette.png"
@@ -168,7 +170,7 @@
               </ul>
             </a>
           </div>
-        </section>
+        </aside>
         <section class="section section--right about">
           <h2 class="about--header" id="about">About</h2>
           <ul>
@@ -222,7 +224,7 @@
               <p class="work--date">2021-09</p>
             </div>
             <div class="work--item">
-              <h3 class="work--header">IT Technician</h3>
+              <h4 class="work--header">IT Technician</h4>
               <p class="work--place">Ohana Fitness Club, Moscow</p>
               <ul class="work--list">
                 <li class="work--li">
@@ -250,7 +252,7 @@
               <p class="work--date">2020-06</p>
             </div>
             <div class="work--item">
-              <h3 class="work--header">Junior Front-end Developer</h3>
+              <h4 class="work--header">Junior Front-end Developer</h4>
               <p class="work--place">GoldApp, Remote</p>
               <ul class="work--list">
                 <li class="work--li">
@@ -293,7 +295,16 @@
         return cache[x];
       };
     }</code></pre>
-
+          <h2 class="about--header">Introduce video</h2>
+          <iframe
+            class="iframe"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I4ckqZFiGyY"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           <h2 class="about--header" id="stack">Tech stack</h2>
           <div class="about--stack">
             <div class="about--item">CSS</div>
