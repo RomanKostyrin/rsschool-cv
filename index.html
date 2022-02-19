@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad()
+    </script>
+  </head>
+  <body>
+    <header class="visually-hidden">
+      <h1 class="visually-hidden">Kostyrin Roman</h1>
+    </header>
+    <main>
+      <div class="container">
+        <aside class="section section--left">
+          <h2 class="visually-hidden">section--left</h2>
+          <input class="burger-check" id="burger-check" type="checkbox" /><label
+            for="burger-check"
+            class="burger"
+          ></label>
+          <nav class="navigation" id="navigation1">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#education" class="navigation__link">
+                  <p class="navigation__text">Education</p>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#projects" class="navigation__link">
+                  <p class="navigation__text">Projects</p>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#stack" class="navigation__link">
+                  <p class="navigation__text">Tech stack</p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="section--container">
+            <img
+              class="img--photo"
+              src="photo.jpeg"
+              alt="Kostyrin Roman"
+              width="150"
+              height="150"
+            />
+            <h2 class="img--header">Roman Kostyrin</h2>
+            <p class="img--text">Front - end Developer</p>
+          </div>
+          <div class="contacts">
+            <h2 class="header--text">Contacts</h2>
+            <ul class="contacts--list">
+              <li>
+                <p class="contacts--text">Location</p>
+                <p class="contacts--text__second">Moscow</p>
+              </li>
+              <li>
+                <p class="contacts--text">Phone number</p>
+                <p class="contacts--text__second">+7 962 409-10-55</p>
+              </li>
+              <li>
+                <p class="contacts--text">LinkedIn</p>
+                <a
+                  class="contacts--text__link"
+                  href="https://www.linkedin.com/in/rkostyrin"
+                  >https://www.linkedin.com/in/rkostyrin</a
+                >
+              </li>
+              <li>
+                <p class="contacts--text">GitHub</p>
+                <a
+                  class="contacts--text__link"
+                  href="https://github.com/RomanKostyrin"
+                  >https://github.com/RomanKostyrin</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h2 class="header--text">Skills</h2>
+            <ul class="skills--list">
+              <li>
+                <p class="skills--text">HTML / CSS</p>
+                <div class="skills--scale skills--scale__html"></div>
+              </li>
+              <li>
+                <p class="skills--text">JavaScript</p>
+                <div class="skills--scale skills--scale__js"></div>
+              </li>
+              <li>
+                <p class="skills--text">React</p>
+                <div class="skills--scale skills--scale__react"></div>
+              </li>
+              <li>
+                <p class="skills--text">Git</p>
+                <div class="skills--scale skills--scale__git"></div>
+              </li>
+              <li>
+                <p class="skills--text">Webpack</p>
+                <div class="skills--scale skills--scale__webpack"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts">
+            <h2 class="header--text">Languages</h2>
+            <div class="english">
+              <p class="skills--text">English (B1)</p>
+              <div class="skills--scale skills--scale__english"></div>
+            </div>
+            <h2 class="header--text" id="projects">Projects</h2>
+            <div class="projects"></div>
+            <a
+              href="https://skins2day.goldapp.ru/"
+              target="_blank"
+              class="projects--item"
+            >
+              <h3 class="projects--header">Skins2Day</h3>
+              <img
+                class="projects--image"
+                src="./skins2day.jpeg"
+                alt="skins2day"
+                width="188"
+                height="210"
+              />
+              <p class="project--text__main">
+                Project was designed as a simplified version of classic roulette
+                for CSGO players.
+              </p>
+              <ul>
+                <li><p class="project--text">HTML, CSS, JS, Gulp</p></li>
+                <li><p class="project--text">Adaptive design</p></li>
+              </ul>
+            </a>
+            <a
+              href="https://livedouble.goldapp.ru/"
+              target="_blank"
+              class="projects--item"
+            >
+              <h3 class="projects--header">LiveDouble</h3>
+              <img
+                class="projects--image"
+                src="./roulette.png"
+                alt="skins2day"
+                width="192"
+                height="193"
+              />
+              <p class="project--text__main">
+                Project based on the classic online roulette, but on the
+                Ethereum smart contract.
+              </p>
+              <ul>
+                <li><p class="project--text">HTML, CSS, JS, Gulp</p></li>
+                <li><p class="project--text">Adaptive design</p></li>
+              </ul>
+            </a>
+          </div>
+        </aside>
+        <section class="section section--right about">
+          <h2 class="about--header" id="about">About</h2>
+          <ul>
+            <li>
+              <p class="about--text">
+                From 2015 until 2018 I had some personal management experience.
+              </p>
+            </li>
+            <li>
+              <p class="about--text">
+                In 2018 I decided to try myself in front-end.
+              </p>
+            </li>
+            <li>
+              <p class="about--text">
+                In 2019 I finished some HTML/CSS course. After that I found a
+                job and started developing sites and applications for social
+                networks.
+              </p>
+            </li>
+            <li>
+              <p class="about--text">
+                I'm in love with Front-end! This is really awesome to see right
+                now what I did. In 2020 I had to move to Moscow and I worked
+                like an IT technician.
+              </p>
+            </li>
+            <li>
+              <p class="about--text">
+                Right now I am looking for a job like a Front-end Developer.
+              </p>
+            </li>
+          </ul>
+          <h2 class="about--header">Finished courses and certificates</h2>
+          <ul>
+            <li>HTML/CSS by HTML Academy</li>
+            <li>JavaScript 2021 on Udemy by Vladilen Minin</li>
+            <li>React JS on Udemy by Vladilen Minin</li>
+            <li>
+              <a
+                class="about--link"
+                href="https://www.freecodecamp.org/certification/fcc050fba0f-a858-488a-9a7a-ca450298415d/javascript-algorithms-and-data-structures"
+                >JavaScript Algorithms and Data Structures (freecodecamp)</a
+              >
+            </li>
+          </ul>
+          <h2 class="about--header">Work history</h2>
+          <div class="work">
+            <div class="work--item">
+              <p class="work--date">2020-07 -</p>
+              <p class="work--date">2021-09</p>
+            </div>
+            <div class="work--item">
+              <h4 class="work--header">IT Technician</h4>
+              <p class="work--place">Ohana Fitness Club, Moscow</p>
+              <ul class="work--list">
+                <li class="work--li">
+                  Established, repaired and optimized networks by installing
+                  wiring, cabling and devices
+                </li>
+                <li class="work--li">
+                  Responded to support requests from end users and patiently
+                  walked individuals through basic troubleshooting tasks
+                </li>
+                <li class="work--li">
+                  Maintained and monitored server room, wireless network and
+                  other server infrastructure, keeping systems running smoothly
+                </li>
+                <li class="work--li">
+                  Explained technical information in clear terms to
+                  non-technical individuals to promote better understanding
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="work">
+            <div class="work--item">
+              <p class="work--date">2019-10 -</p>
+              <p class="work--date">2020-06</p>
+            </div>
+            <div class="work--item">
+              <h4 class="work--header">Junior Front-end Developer</h4>
+              <p class="work--place">GoldApp, Remote</p>
+              <ul class="work--list">
+                <li class="work--li">
+                  Developed user interfaces with JavaScript, HTML5 and CSS3.
+                </li>
+                <li class="work--li">
+                  Designed and implemented web components across new and
+                  existing designs.
+                </li>
+                <li class="work--li">
+                  Coded websites using HTML, CSS and JavaScript.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h2 class="about--header" id="education">Education</h2>
+          <div class="work">
+            <div class="work--item">
+              <p class="work--date">2007-09-</p>
+              <p class="work--date">2012-07</p>
+            </div>
+            <div class="work--item">
+              <h3 class="work--header">
+                Engineer's Degree : Information Technology
+              </h3>
+              <p class="work--place">
+                North-Caucasus State Technical University (former Stavropol
+                State Technical University)
+              </p>
+            </div>
+          </div>
+          <h2 class="about--header">Code example</h2>
+          <pre><code class="js">
+    function cache(f) {
+      let cache = {};    
+      return function(x) {
+        if (!(x in cache)) {
+          cache[x] = f.call(this, x);
+        }
+        return cache[x];
+      };
+    }</code></pre>
+          <h2 class="about--header">Introduce video</h2>
+          <iframe
+            class="iframe"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I4ckqZFiGyY"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h2 class="about--header" id="stack">Tech stack</h2>
+          <div class="about--stack">
+            <div class="about--item">CSS</div>
+            <div class="about--item">HTML</div>
+            <div class="about--item">ES6</div>
+            <div class="about--item">React</div>
+            <div class="about--item">Node.js</div>
+            <div class="about--item">Git</div>
+            <div class="about--item">SemanticHTML</div>
+            <div class="about--item">Photoshop</div>
+            <div class="about--item">Webpack</div>
+            <div class="about--item">Figma</div>
+            <div class="about--item">MongoDB</div>
+            <div class="about--item">SASS</div>
+            <div class="about--item">Firebase</div>
+            <div class="about--item">Redux</div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/RomanKostyrin/" class="rs--link"></a>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
