@@ -16,12 +16,12 @@
 
 ### I am in love with Frontend! This is really excited for me to see right now what I did. In 2020 I had to move to Moscow and I worded like an IT specialist.
 
-### Right now I am looking for a job like a Frontend Developer
+### Right now I am working as a frontend developer
 
 ## Skills
 
 - HTML5, CSS3
-- JavaScript
+- JavaScript, Typescript
 - Git, GitHub
 - BEM
 - React, Redux
@@ -30,19 +30,22 @@
 
 ### North-Caucasus State Technical University (former Stavropol State Technical University) Engineer's degree
 
-### Now I have finished 3 courses:
+### Now I have finished 4 courses:
 
 - HTML/CCS on htmlacademy.ru
 - JS 2021 on Udemy by Vladilen Minin.
 - React on Udemy by Vladilen Minin.
+- RS School 2022
 
 ## Job experience
 
 ### Frontend Engineer on GoldApp
+
+### Frontend Engineer on EPAM
 
 ## Examples of my work
 
 - https://goldapp.ru/ru#portfolio-livedouble-blockchain-gambling-eth-smartcontract
 - https://goldapp.ru/ru#portfolio-csgo-cases
 
-## English level: B1
+## English level: B2

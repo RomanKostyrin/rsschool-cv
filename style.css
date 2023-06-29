@@ -14,9 +14,11 @@
   max-width: 1024px;
   width: calc(100% - 40px);
 }
+
 .img--photo {
   border-radius: 50%;
 }
+
 .img--header {
   font-size: 20px;
   color: white;
@@ -24,26 +26,31 @@
   margin-bottom: 10px;
   font-family: 'Noto Sans TC', sans-serif;
 }
+
 .img--text {
   font-size: 14px;
   margin: 0px;
 }
+
 .section--left {
   color: white;
   font-family: 'Noto Sans TC', sans-serif;
   width: 320px;
   background-color: rgb(0, 61, 115);
 }
+
 .contacts,
 .skills {
   box-sizing: border-box;
   width: 100%;
   padding-bottom: 20px;
 }
+
 .section--container {
   padding-top: 20px;
   padding-left: 30px;
 }
+
 .section--container,
 .main,
 .footer {
@@ -64,18 +71,21 @@
   background-color: rgb(0, 49, 92);
   box-sizing: border-box;
 }
+
 .contacts--text,
 .skills--text {
   padding-left: 30px;
   font-size: 16px;
   margin: 15px 0px 0px 0px;
 }
+
 .contacts--text__second {
   padding-left: 37px;
   margin: 0px;
   font-size: 14px;
   font-weight: 100;
 }
+
 .contacts--text__link {
   text-decoration: none;
   cursor: pointer;
@@ -85,15 +95,18 @@
   font-weight: 100;
   color: white;
 }
+
 .contacts--text__link:hover,
 .about--link:hover {
   color: rgb(33, 189, 66);
 }
+
 .contacts--list,
 .skills--list {
   list-style: none;
   padding: 0px;
 }
+
 .skills--list li,
 .contacts--list li {
   margin-bottom: 40px;
@@ -105,57 +118,40 @@
   width: 200px;
   height: 10px;
 }
+
 .skills--scale__html {
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgb(255, 255, 255) 95%,
-    rgb(14, 2, 70) 95%
-  );
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255) 95%, rgb(14, 2, 70) 95%);
 }
+
 .skills--scale__js {
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgb(255, 255, 255) 75%,
-    rgb(14, 2, 70) 75%
-  );
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255) 75%, rgb(14, 2, 70) 75%);
 }
+
 .skills--scale__react,
 .skills--scale__git,
 .skills--scale__webpack {
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgb(255, 255, 255) 75%,
-    rgb(14, 2, 70) 75%
-  );
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255) 75%, rgb(14, 2, 70) 75%);
 }
+
 .skills--scale__react {
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgb(255, 255, 255) 65%,
-    rgb(14, 2, 70) 65%
-  );
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255) 65%, rgb(14, 2, 70) 65%);
 }
+
 .skills--scale__english {
-  background: linear-gradient(
-    to right,
-    rgb(255, 255, 255),
-    rgb(255, 255, 255) 70%,
-    rgb(14, 2, 70) 70%
-  );
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255) 70%, rgb(14, 2, 70) 70%);
 }
+
 .section--right {
   padding: 10px 0px;
 }
+
 .about--text {
   padding-left: 25px;
   color: rgb(14, 2, 70);
   max-width: 510px;
   font-family: 'Noto Sans TC', sans-serif;
 }
+
 .about--header {
   color: rgb(14, 2, 70);
   padding: 10px 10px 10px 20px;
@@ -163,24 +159,29 @@
   border-top: 1px solid rgb(14, 2, 70);
   border-bottom: 1px solid rgb(14, 2, 70);
 }
+
 .about--link {
   cursor: pointer;
   color: rgb(14, 2, 70);
   text-decoration: none;
 }
+
 .work--item,
 .work--header,
 .work--place {
   margin-left: 25px;
 }
+
 .work--date {
   min-width: 65px;
   margin-bottom: 0px;
   margin-top: 15px;
 }
+
 .work--header {
   margin-top: 15px;
 }
+
 .work {
   display: flex;
   justify-content: flex-start;
@@ -189,12 +190,13 @@
 .work--list {
   max-width: 450px;
 }
+
 footer {
   text-align: center;
 }
+
 .rs--link {
   display: inline-block;
-
   width: 50px;
   height: 30px;
   background: url('./rs_school_js.svg');
